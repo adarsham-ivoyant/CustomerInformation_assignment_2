@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 public class App 
 {
+	//Avg by branch
     static public double findAvgBillByBranc(CustomerInformation[] cust,String bName){
        // System.out.println("custid"+cust[0].getBranchName());
         int bcount=0;
@@ -26,7 +27,7 @@ public class App
         }
 
     }
-
+	//dicountByBillAmount
     static public String discountByBillAmount(CustomerInformation[] cust,int threshold,String starting_letter){
         double discount=0;
         String customer="";
